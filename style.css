@@ -1,0 +1,118 @@
+.card-container {
+    border: 1px solid black;
+    width: 500px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 56px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    box-shadow: -8px 9px 16px -3px gray;
+    /*background: #171314; */
+   }
+   .card-background {
+    height: 600px;
+    margin: 20px 20px 0 20px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 8%;
+    border-bottom-right-radius: 8%;
+    background-color: #bbb;
+   }
+
+   .card-containr {
+    background: #171314;
+   }
+
+   .card-frame {
+    z-index: 1;
+    position: relative;
+    height: 108%;
+    max-width: 97%;
+    left: 1%;
+    top: 0.5%;
+    left: 1.2%;
+    display: flex;
+    flex-direction: column;
+   }
+   .card-background {
+    z-index: 0;
+   }
+
+   /*
+ — — — — — — — — — — — — -
+ — — — — — — — — — — — — -
+ BORDERS
+ — — — — — — — — — — — — -
+ — — — — — — — — — — — — -
+*/
+.frame-header,
+.frame-type-line {
+ border-bottom: 4px solid #a9a9a9;
+ border-left: 2px solid #a9a9a9;
+ border-top: 1px solid #fff;
+ border-right: 1px solid #fff;
+}
+.frame-header,
+.frame-art,
+.frame-type-line {
+ box-shadow: 
+ 0 0 0 2px #171314,
+ 0 0 0 5px #26714A,
+ -3px 3px 2px 5px #171314;
+margin-bottom: 7px;
+}
+.frame-text-box {
+ box-shadow: 
+ 0 0 0 5px #26714A,
+ -3px 3px 2px 5px #171314;
+}
+
+
+.frame-header,
+.frame-type-line,
+.frame-text-box {
+ overflow: hidden;
+}
+
+.frame-header,
+.frame-type-line {
+ background: 
+ linear-gradient( 0deg, rgba(201, 216, 201, .3), rgba(201, 216, 209, .3) ), 
+ url(); 
+ display: flex;
+ margin-top: 10px;
+ margin-left: 5px;
+ margin-right: 5px;
+ padding: 8px 0;
+ display: flex;
+ justify-content: space-between;
+ border-radius: 18px/40px;
+}
+
+.name,
+.type {
+ font-size: .5em;
+ margin-left: 10px;
+ align-self: baseline;
+ font-weight: 600;
+}
+
+
+
+   .frame-art {
+    height: 50%; /* make it fit in the card */
+    margin: 0 10px; /* align it vertically */
+   }
+
+   #picBox{
+    background-color: papayawhip;
+   
+   
+   
+   }
+
+   #typeOfCard{
+       position: relative;
+       
+   }
+   
